@@ -1,6 +1,10 @@
+body{
+    background-color: lightseagreen;
+}
+
 header{
     background-color: black;
-    height: 100px;
+    height: 75px;
 }
 
 main {
@@ -9,11 +13,19 @@ main {
 }
 main ul li {
     display: inline-block;
-    margin: 0px 15px 0px 0px;
+    margin: 0px 10px 0px 5px;
+}
+main ul {
+    margin: 0px 5px;
 }
 main li:last-child{
     margin-right: 0px;
 }
 div {
     margin: 5px 10px;
+}
+
+footer{
+    background-color: black;
+    height: 75px;
 }
