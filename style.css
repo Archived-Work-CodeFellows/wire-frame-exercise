@@ -4,28 +4,84 @@ body{
 
 header{
     background-color: black;
-    height: 75px;
+    height: 80px;
+}
+nav {
+    width: 960px;
+    margin: 0px auto;
+}
+header img {
+    float: left;
+    margin-top: 10px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-top: 35px;
+    margin-right: 75px;
+    margin-left: 60px;
+}
+a {
+    text-decoration: none;
+    color: lightgray;
 }
 
 main {
     width: 960px;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 main ul li {
-    display: inline-block;
-    margin: 0px 10px 0px 5px;
-}
-main ul {
-    margin: 0px 5px;
+    list-style: none;
+    float: left;
+    margin: 10px 30px 10px 0px;
 }
 main li:last-child{
     margin-right: 0px;
 }
+main ul {
+    margin: 0px auto;
+    padding: 0px;
+}
 div {
-    margin: 5px 10px;
+    margin: 5px auto;
+}
+section img {
+    float: left;
+}
+section div {
+    width: calc(50% - 80px);
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+section p {
+    height: 300px;
+    overflow: auto;
+    font-size: 15px;
+    line-height: 24px;
+}
+button {
+    border: none;
+    padding: 10px 30px;
+    background: lightgray;
+    color: #000;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 5px;
+    transition: 450ms;
+}
+button:hover {
+    background-color: grey;
+    color: lightcyan;
 }
 
 footer{
+    clear: both;
     background-color: black;
     height: 75px;
 }
